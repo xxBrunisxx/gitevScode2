@@ -1,3 +1,12 @@
 *{
     background-color: rgb(180, 85, 30);
+    color: black;
+}
+#caixa-flex{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 50%;
+    height: 30%;
 }
