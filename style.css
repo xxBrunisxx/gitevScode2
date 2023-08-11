@@ -4,7 +4,7 @@
 }
 #caixa-flex{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 img{
     width: 50%;
