@@ -1,31 +1,31 @@
-*{
-    background-color: rgb(201, 109, 56);
-    color: black;
-}
-    .pricipal{
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        background-color: DodgerBlue;
-      }
-      .Coluna{
-        display: flex;
-        flex-direction: column;
-        background-color: #f1f1f1;
-        width: 100px;
-        margin: 10px;
-        text-align: center;
-        line-height: 75px;
-        font-size: 30px;
-      }
-img{
-  margin: auto;
-    width: 50%;
-    height: 30%;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #b35f00;
 }
 
-h1{
-  color: aqua;
-  text-align:center;
-  font-family: cursive;
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Adicionando responsividade para telas menores */
+@media screen and (max-width: 600px) {
+  .gallery {
+    flex-direction: column; /* Alterar para uma coluna quando a tela for menor que 600px */
+    align-items: center; /* Centralizar os itens quando estiver em uma coluna */
+  }
 }
