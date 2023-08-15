@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  background-color: rgb(170, 100, 20);
+  background-color: rgb(175, 104, 23);
 }
 
 h1 {
@@ -11,7 +11,7 @@ h1 {
   margin: 25px;
   padding: 50px;
   background-color: #17bdb9;
-  color:red;
+  color:rgb(245, 228, 0);
   overflow: hidden;
 }
 
