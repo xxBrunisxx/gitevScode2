@@ -30,7 +30,11 @@ h1 {
 .column img {
   vertical-align: middle;
   margin-top: 8px;
+
   
+}
+img{
+  padding: 20px;
 }
 
 .column:nth-child(even) {
